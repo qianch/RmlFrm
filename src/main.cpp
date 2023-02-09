@@ -58,7 +58,8 @@ public:
 		document = context->LoadDocument("basic/demo/data/demo.rml");
 		if (document)
 		{
-			document->GetElementById("title")->SetInnerRML(title);
+			//使用window.rml中的title
+			//document->GetElementById("title")->SetInnerRML(title);
 
 			// Add sandbox default text.
 			if (auto source = static_cast<Rml::ElementFormControl*>(document->GetElementById("sandbox_rml_source")))

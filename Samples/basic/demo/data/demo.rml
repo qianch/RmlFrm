@@ -602,7 +602,7 @@ progress {
 <body template="window">
 
 <tabset id="menu">
-<tab>Welcome</tab>
+<tab>欢迎</tab>
 <panel id="welcome">
 	<p class="title" style="margin-top: 1.8em;">RmlUi 😍</p>
 	<p>Have fun fiddling about in this demo.</p>
