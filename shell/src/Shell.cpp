@@ -70,6 +70,7 @@ void Shell::LoadFonts()
 		{"LatoLatin-Bold.ttf", false},
 		{"LatoLatin-BoldItalic.ttf", false},
 		{"NotoEmoji-Regular.ttf", true},
+		{"msyh.ttc", true},
 	};
 
 	for (const FontFace& face : font_faces)
